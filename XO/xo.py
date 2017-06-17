@@ -65,7 +65,7 @@ class Game:
             self.gameBoard.draw()
             if self.gameBoard.checkWinner() == 0: break;
             self.count += 1
-            if self.count == 8: self.end = True
+            if self.count == 9: self.end = True
 
 if __name__ == '__main__':
     g = Game()
