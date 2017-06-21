@@ -8,7 +8,6 @@ from FTPconn import *
 import ftplib
 import os
 
-
 class mainWin:
     def _msgBox(self, num, text):
         if num == 1:
