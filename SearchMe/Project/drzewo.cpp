@@ -1,4 +1,5 @@
 #include "drzewo.h"
+
 void dodajDziecko(Znak *&head, char v)
 {
     Znak *p, *e;
